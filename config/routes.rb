@@ -20,4 +20,11 @@ Rails.application.routes.draw do
   # edit: 更新用のフォームページ
   get 'messages/:id/edit', to: 'messages#edit'
 end
+
+
+GET (Read)
+POST (Create)
+PUT (Update)
+DELETE (Delete)
+
 =end
